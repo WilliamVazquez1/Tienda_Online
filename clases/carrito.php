@@ -5,7 +5,6 @@ session_start();
 $datos = array(); // Inicializar $datos
 
 if(isset($_POST['id']) && isset($_POST['token'])) { // Corregir asignación de $token
-
     $id = $_POST['id'];
     $token = $_POST['token']; // Asignar $token
 
